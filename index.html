@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Khayrah — Heart Soothe (Frontend)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>How are you feeling right now?</h1>
+    <p class="sub">Pick a feeling or type your own. Click “Find comfort.”</p>
+
+    <div class="controls">
+      <select id="feelingSelect">
+        <option value="">— Select a feeling —</option>
+        <option>sad</option><option>stressed</option><option>worried</option>
+        <option>afraid</option><option>anxious</option><option>grieving</option>
+        <option>angry</option><option>hopeful</option><option>grateful</option>
+      </select>
+      <input id="customFeeling" placeholder="or type your own (e.g., lonely, burnt out)" />
+      <button id="goBtn">Find comfort</button>
+    </div>
+
+    <div id="aiNotice" class="notice"></div>
+
+    <section id="results" class="card hidden">
+      <h2 id="title"></h2>
+      <div id="blocks"></div>
+      <div id="peptalk" class="peptalk hidden"></div>
+    </section>
+
+    <footer>Made for reflection, not diagnosis.</footer>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

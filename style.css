@@ -1,0 +1,18 @@
+*{box-sizing:border-box}
+body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif; background:#0f1220; color:#e6e9f3; margin:0}
+.wrap{max-width:900px; margin:24px auto; padding:0 16px}
+h1{margin:10px 0 4px}
+.sub{color:#9aa4b2; margin:0 0 16px}
+.controls{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:10px}
+select,input,button{padding:10px 12px; border-radius:10px; border:1px solid #2a3248; background:#12172a; color:#e6e9f3}
+button{cursor:pointer; background:#8b5cf6; border-color:#8b5cf6; font-weight:700}
+.notice{margin:10px 0; padding:10px 12px; border:1px solid #334155; background:#0b1220; border-radius:10px; color:#d1d5db}
+.card{border:1px solid #263042; background:#12172a; border-radius:14px; padding:14px}
+.hidden{display:none}
+.block{margin:10px 0; padding:10px 12px; border-radius:10px; background:#0b1120; border:1px solid #22304a}
+.block .eyebrow{font-size:12px; letter-spacing:.15em; text-transform:uppercase; opacity:.85}
+.block .ar{direction:rtl; font-weight:600; margin:6px 0}
+.block .en{opacity:.95}
+.meta{color:#9aa4b2; font-size:12px}
+.peptalk{margin-top:12px; padding:12px; border-radius:10px; border:1px solid #24543f; background:#09261b}
+footer{color:#9aa4b2; font-size:12px; text-align:center; margin:20px 0}
